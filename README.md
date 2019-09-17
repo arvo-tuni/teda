@@ -2,7 +2,7 @@
 
 ## Install
 
-First, install the latest [Node.js](https://nodejs.org/) version (11+), it will also install NPM, its packet manager. Also, install [Git](https://git-scm.com/downloads).
+First, install the latest [Node.js](https://nodejs.org/en/download/current/) version (11+), it will also install NPM, its packet manager. Also, install [Git](https://git-scm.com/downloads).
 
 Create some folder, open a terminal here, and download the sources:
 

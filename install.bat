@@ -3,7 +3,7 @@
 echo.
 echo Installing external tools...
 echo.
-call npm install -g static
+call npm install -g node-static
 
 echo.
 echo Downloading the projects...
