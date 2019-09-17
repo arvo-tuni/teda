@@ -15,7 +15,7 @@ echo Downloading dependencies and builing the projects...
 
 echo.
 echo [server]
-cd test-data-server
+cd teda-server
 call npm install
 call npm run build
 
@@ -23,7 +23,7 @@ cd ..
 
 echo.
 echo [client]
-cd test-data-vis
+cd teda-client
 call npm install
 call npm run build
 
