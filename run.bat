@@ -1,14 +1,14 @@
 @echo off
 
 echo Staring server...
-cd test-data-server/build
+cd teda-server/build
 start "ARVO data server" cmd "/c node ./app.js -d ../../data"
 
 cd ../..
 
 echo Staring client...
-cd test-data-vis/dist
-start "ARVO client server" cmd "/c static -p 8080"
+cd teda-client/dist
+start "ARVO client" cmd "/c static -p 8080"
 
 timeout 5
 
