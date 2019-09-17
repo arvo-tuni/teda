@@ -24,6 +24,6 @@ You can modify the `run.bat` file if your data folder (named `data`) is located 
 start "ARVO data server" cmd "/c node ./app.js -d YOUR_DATA_FOLDER"
 ```
 
-and replace the path to the data folder with the correct one.
+and replace the path to the data folder with the correct one that is **relative to the `teda-server/build` folder**.
 
 There are also other parameters for the data server, you can learn about them from the console that runs the server.

@@ -11,7 +11,7 @@ call git clone https://github.com/arvo-tuni/teda-server.git
 call git clone https://github.com/arvo-tuni/teda-client.git
 
 echo.
-echo Downloading dependencies and builing the projects...
+echo Downloading dependencies and building the projects...
 
 echo.
 echo [server]
