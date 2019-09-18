@@ -28,3 +28,5 @@ and replace the path to the data folder with the correct one that is **relative 
 There are also other parameters for the data server, you can learn about them from the console that runs the server. You can insert them at the end of the line before the closing `"`.
 
 Note that launching server may take time (especially, if a new data was added to the data folder), so the web application will show an error reporting it cannot connect to the server. In this case wait until the server console shows the `app listening on port 3000` message, and then reload the web app.
+
+Also note that currently the server has only one state shared among all clients, so it is advised not to open more than one tab with this application in the browser (i.e., the server servers only one client).
