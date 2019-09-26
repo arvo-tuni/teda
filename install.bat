@@ -10,6 +10,7 @@ echo Downloading the projects...
 echo.
 
 call git clone https://github.com/arvo-tuni/teda-server.git
+echo.
 call git clone https://github.com/arvo-tuni/teda-client.git
 
 echo.
@@ -28,9 +29,9 @@ call npm install
 cd ..
 
 echo.
-echo Fixing some issues with Chart.js...
+echo Intalling vue-ls type separately...
 echo.
-call git pull -f origin master
+robocopy vue-ls teda-client\\node-modules\\@types\\vue-ls
 
 echo.
 echo Building the projects...
