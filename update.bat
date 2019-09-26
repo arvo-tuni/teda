@@ -18,7 +18,7 @@ cd ..
 echo.
 echo Intalling vue-ls type separately...
 echo.
-robocopy vue-ls teda-client\\node-modules\\@types\\vue-ls
+robocopy vue-ls teda-client\\node_modules\\@types\\vue-ls
 
 echo.
 echo Building the projects...
