@@ -15,10 +15,10 @@ cd teda-client
 call git pull origin master
 cd ..
 
-rem echo.
-rem echo Fixing some issues with Chart.js...
-rem echo.
-rem call git pull -f origin master
+echo.
+echo Intalling vue-ls type separately...
+echo.
+robocopy vue-ls teda-client\\node-modules\\@types\\vue-ls
 
 echo.
 echo Building the projects...
