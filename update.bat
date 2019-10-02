@@ -16,11 +16,6 @@ call git pull origin master
 cd ..
 
 echo.
-echo Intalling vue-ls type separately...
-echo.
-robocopy vue-ls teda-client\\node_modules\\@types\\vue-ls
-
-echo.
 echo Building the projects...
 
 echo.

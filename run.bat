@@ -10,4 +10,6 @@ echo Staring client...
 cd teda-client/dist
 start "ARVO client" cmd "/c static -p 8080"
 
-timeout 5 start http://127.0.0.1:8080
+timeout 5 2>nul
+sleep 5 2>nul
+start http://127.0.0.1:8080
