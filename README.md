@@ -1,5 +1,7 @@
 # Gaze analysis & visualization for tests in ARVO
 
+**NOTE!** The description below applies only when using client (visualization in a browser) and server (log reading) sides as separate applications. It is recommended for non-developers to use a single-bundled app compiled for Windows that can be downloaded from [here](https://github.com/arvo-tuni/teda/releases)
+
 ## Installing
 
 1. Install the latest [Node.js](https://nodejs.org/en/download/current/) version (11+), it will also install NPM, its packet manager. 
