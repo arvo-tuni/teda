@@ -1,4 +1,4 @@
-# Gaze analysis & visualization for tests in ARVO
+# EAKR gaze data analysis & visualization app
 
 **NOTE!** The description below applies only when using client (visualization in a browser) and server (log reading) sides as separate applications. It is recommended for non-developers to use a single-bundled app compiled for Windows that can be downloaded from [here](https://github.com/arvo-tuni/teda/releases)
 
@@ -22,7 +22,7 @@ Run the `run.bat` file, it will automatically launch data server and open the we
 You can modify the `run.bat` file if your data folder is not located in the `teda` folder. For this, find the following line in the `run.bat`
 
 ```
-start "ARVO data server" cmd "/c node ./app.js -d YOUR_DATA_FOLDER"
+start "EAKR data server" cmd "/c node ./app.js -d YOUR_DATA_FOLDER"
 ```
 
 and replace the path to the data folder with the correct one that is **relative to the `teda/teda-server/build` folder** (the default path `../../data` means that the data is located in the `teda/data` folder).
