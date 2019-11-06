@@ -1,6 +1,6 @@
 # EAKR gaze data analysis & visualization app
 
-**NOTE!** The description below applies only when using client (visualization in a browser) and server (log reading) sides as separate applications. It is recommended for non-developers to use a single-bundled app compiled for Windows that can be downloaded from [here](https://github.com/arvo-tuni/teda/releases)
+**NOTE!** The description below applies only when using client (visualization in a browser) and server (log reading) sides as separate applications. It is recommended for non-developers to use a single-bundled app compiled for Windows that can be downloaded from [here](https://github.com/tuni-eakr/teda/releases)
 
 ## Installing
 
@@ -9,7 +9,7 @@
 3. Create some folder, open a terminal/console there, and download the sources:
 
 ```
-git clone https://github.com/arvo-tuni/teda.git
+git clone https://github.com/tuni-eakr/teda.git
 ```
 
 5. Go to the `teda` folder and run the `install.bat` script, it will finalize the installation.

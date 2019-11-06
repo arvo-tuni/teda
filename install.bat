@@ -9,9 +9,9 @@ echo.
 echo Downloading the projects...
 echo.
 
-call git clone https://github.com/arvo-tuni/teda-server.git
+call git clone https://github.com/tuni-eakr/teda-server.git
 echo.
-call git clone https://github.com/arvo-tuni/teda-client.git
+call git clone https://github.com/tuni-eakr/teda-client.git
 
 echo.
 echo Downloading dependencies...
